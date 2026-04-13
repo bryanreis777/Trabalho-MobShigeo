@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covinhas</title>
+    <link rel="icon" type="image/x-icon" href="img/Covinhas.webp">
+    <style>
+        body {
+            color: #FFFFFF; 
+        }
+          th, td {
+            border: 2px solid hwb(145 18% 12%);
+                    }
+                    /* Link que ainda não foi visitado */
+        a:link {
+    color: hsl(59, 92%, 50%);
+}
+
+/* Link que o usuário já clicou antes */
+        a:visited {
+    color: lch(78.41% 26.68 250.49);
+     /* Um verde mais escuro para mostrar que já foi lido */
+}
+
+/* Quando o usuário passa o mouse por cima */
+        a:hover {
+    color: #fbff2d;
+     /* Muda para branco ao passar o mouse */
+    
+}
+
+/* No exato momento em que o usuário clica */
+        a:active {
+    color: #39f50a;
+}
+    </style>
+</head>
+<body>
+  
+
+   <div class="container">
+
+   <div id="icon" style="width: 68px; height: 100px; position: absolute; pointer-events: none; z-index: 9999; transition: all 0.1s ease-out;">
+
+    <img src="img/Covinhas.webp" alt="Icone" style="width: 60%; height: 60%;">
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+$(document).ready(function() {
+    $(document).mousemove(function(e) {
+        // Atualiza a posição instantaneamente no JS
+        // O "suave" vem do 'transition: all 0.1s' no CSS lá em cima
+        $('#icon').css({
+            top: e.pageY + 5 + 'px', 
+            left: e.pageX + 10 + 'px'
+        });
+    });
+});
+</script>
+
+   
+    <style>
+  body {
+    background-image: url(img/fundo2.jpg);
+    
+      background-size: cover; /*Faz a imagem ocupar a tela inteira */
+    background-attachment: fixed; /* A imagem fica parada ao rolar a página */
+  }
+</style>
+
+    <h1>Covinhas</h1>
+     
+<img src="img/covinhas.jpg"  alt="Uma imagem comum do personagem"; height="300"; style="float: left; border: 5px solid hwb(0 0% 100%); margin-right: 20px;">
+
+<div style="float: left; width: 600px"> 
+
+    <table>  
+        <h2>ALgumas Características:</h2>
+   
+        <ul>
+            <li><h2>Personalidade Oportunista e Sarcástica;</h2></li>
+            <li><h2>Ambissão divina;</h2></li>
+            <li><h2>Lealdade Relutante;</h2></li>
+            <li><h2>Engraçado e Chato ao mesmo tempo.</h2></li>
+        </ul>
+    </table>
+</div>
+
+
+<div style=" clear: both;"></div>
+
+<div style=" width: 48%; background-color: #06053ba9; padding: 20px; border-radius: 5px; border: 1px solid #ccc;"><p><h3>Arataka Reigen é um mestre da lábia e um autoproclamado vidente que, apesar de não possuir nenhum poder espiritual real, compensa com inteligência, carisma e técnicas "especiais".</h3></p></div> 
+ 
+     
+  <p><h2>Para mais informações, acesse esse <a href="https://mob-psycho.fandom.com/pt-br/wiki/Covinhas"> link</a> da wiki.</h2></p>
+   <h2><a href="index.html">>Voltar</a></h2>
+  <p><h2>Site desenvolvido pelo aluno <a href="https://github.com/bryanreis777">Bryan Gabriel</a> do IFTM-Campus Patrocínio.</h2></p>
+   </div>
+</body>
+</html>
