@@ -1,0 +1,45 @@
+
+ body {
+    background-image: url(img/fundo2.jpg);
+    background-size: cover; /*Faz a imagem ocupar a tela inteira */
+    background-attachment: fixed; /* A imagem fica parada ao rolar a página */
+    color: #FFFFFF; 
+
+table{
+    background-color: #006400;
+     width: 50%;
+      border-radius: 5px;
+       border: 1px #ccc
+}
+ th{
+    border: 2px solid lch(47.41% 55.27 147.27) ;
+ } 
+
+ td {
+border: 2px solid lch(47.41% 55.27 147.27) ;
+padding: 10px;
+}
+   
+ a:link {
+    color: hsl(59, 92%, 50%);
+}
+
+a:visited {
+    color: lch(78.41% 26.68 250.49);
+}
+a:hover {
+    color: #fbff2d;
+}
+a:active {
+    color: #39f50a;
+}
+b{
+    color:red;
+}
+video{
+    width:500px;
+}
+table{
+   border-collapse: collapse;
+}
+ }
