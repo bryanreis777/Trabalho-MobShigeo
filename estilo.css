@@ -4,7 +4,7 @@
     background-size: cover; /*Faz a imagem ocupar a tela inteira */
     background-attachment: fixed; /* A imagem fica parada ao rolar a página */
     color: #FFFFFF; 
-
+ }
 table{
     background-color: #006400;
      width: 50%;
@@ -42,4 +42,41 @@ video{
 table{
    border-collapse: collapse;
 }
+#video1{
+    float: right; 
+    margin-right: 20px;
+     margin-top: 20px;
+}
+ #video2{
+    float: right;
+     margin-right: 20px;
+ }
+ #icon{
+    width: 68px; height: 100px;
+     position: absolute; 
+    pointer-events: none;
+     z-index: 9999;
+      transition: all 0.1s ease-out;
+ }
+ .perfil{
+    float: left;
+     border: 5px solid hwb(0 0% 100%);
+      margin-right: 20px;height:300px;
+ }
+ .descri{
+    float: left; width: 600px;
+ }
+ .limpeza{
+    clear: both;
+ }
+ .tabela{
+    margin-left: 10px; 
+    width:100px;
+   height:100px;
+ }
+ .text{
+    width: 48%; background-color: #06053ba9; padding: 20px; border-radius: 5px; border: 1px solid #ccc;
+ }
+ .covinhas{
+    width: 60%; height: 60%;
  }
